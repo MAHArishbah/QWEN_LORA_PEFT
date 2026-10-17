@@ -1,0 +1,13 @@
+# Core Deep Learning & PyTorch Stack
+torch>=2.5.0
+transformers>=4.48.0
+datasets>=3.0.0
+peft>=0.14.0
+trl>=0.12.0
+accelerate>=1.0.0
+safetensors>=0.4.0
+
+# Performance Optimizations & Monitoring
+# flash-attn>=2.6.3; platform_system == "Linux"
+mlflow>=2.18.0
+tqdm>=4.66.0

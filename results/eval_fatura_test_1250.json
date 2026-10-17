@@ -1,0 +1,10 @@
+{
+  "model_variant": "Fine-Tuned LoRA (r=32, alpha=64)",
+  "total_test_documents": 1250,
+  "total_carriers": 50,
+  "json_validity_rate_pct": 100.0,
+  "micro_field_accuracy_pct": 99.99,
+  "macro_carrier_accuracy_pct": 99.99,
+  "adapter_dir": "./checkpoints/qwen25-7b-carrier-lora/checkpoint-200",
+  "test_file": "./data/fatura_test_1250.jsonl"
+}
