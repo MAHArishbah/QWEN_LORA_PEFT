@@ -1,0 +1,26 @@
+# Model checkpoints and adapters (large; kept on Google Drive)
+checkpoints/
+
+# Generated datasets (rebuild from FATURA)
+data/
+
+# Data preparation script
+prepare_fatura.py
+
+# Editor and Claude Code settings (machine-specific)
+.claude/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Experiment tracking output (W&B / MLflow local stores)
+wandb/
+mlruns/
+mlflow.db
+
+# Secrets
+.env
